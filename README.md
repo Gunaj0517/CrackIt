@@ -1,2 +1,2 @@
 # CrackIt
-It is a software used for security purposes which will help to create password into hash values. Hash values or Digest can't be attacked easily thus helps in protecting data and preventing malicious activities
+CrackIt is a powerful tool designed to help you manage your password security and data protection. With CrackIt, you can not only recover lost or forgotten passwords but also encrypt sensitive information to keep it safe from unauthorized access. Whether you need to unlock encrypted files, crack passwords for forensic analysis, or protect your data with robust encryption, CrackIt has got you covered.
