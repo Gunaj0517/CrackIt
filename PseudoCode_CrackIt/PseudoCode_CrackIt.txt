@@ -17,7 +17,7 @@ PseudoCode For Recovering Passwords:
         1. Read password_Hash
         2. Add Dictionary Files
     Process:
-        1. Read dictionary_file into a list of words (dictionary list)
+        1. Read dictionary_file into a list of words (dictionary)
         2. For each word in dictionary:
 		    a. Generate a hash using the word
 		    b. Compare the generated hash with the password_Hash
