@@ -1,0 +1,23 @@
+PseudoCode for Making Digest
+    Input:
+        1. Read password input
+        2. Ask if they want to add salt, pepper.  (y/n)
+        3. Ask if they want to do key stretching. (y/n)
+
+    Process
+        1. Hash password using a hashing algorithm (e.g. SHA-256, Argon2, etc.)
+        2. Do Key stretching if user asked for.
+        3. Generate a digest from the hashed password
+        
+    Output:
+        1. Store or transmit the digest for verification
+Example: 
+    
+
+PseudoCode For Cracking Passwords:
+    Input:
+        1)Read password_Hash
+        2)Add Dictionary Files
+    Process:
+
+
