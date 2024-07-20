@@ -11,13 +11,19 @@ PseudoCode for Making Digest
         
     Output:
         1. Store or transmit the digest for verification
-Example: 
-    
 
-PseudoCode For Cracking Passwords:
+PseudoCode For Recovering Passwords:
     Input:
-        1)Read password_Hash
-        2)Add Dictionary Files
+        1. Read password_Hash
+        2. Add Dictionary Files
     Process:
+        1. Read dictionary_file into a list of words (dictionary list)
+        2. For each word in dictionary:
+		    a. Generate a hash using the word
+		    b. Compare the generated hash with the password_Hash
+            c. If they match, return the word as the cracked password
+        3. If no match is found, return "Password not found in dictionary"
+    Output:
+        1. Cracked password (string) or error message
 
 
