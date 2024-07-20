@@ -3,5 +3,5 @@ CrackIt is a powerful tool designed to help you manage your password security an
 <p>FlowChart for Password Hashing:</p>
     <p> Input Password --> Add Salt (random) --> Add Pepper (secret) --> Hashing Algorithm (e.g. PBKDF2, Argon2)-- 
         Key Stretching (slow down) --> Store Hashed Password </p>
-<p>>FlowChart for Password Recovery:</p>
+<p>FlowChart for Password Recovery:</p>
 <p>      Enter Email Id For User Verification --> Choose Password Recovery Attack --> Store Cracked Password </p>
